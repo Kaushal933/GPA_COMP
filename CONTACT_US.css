@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:lightgray;
+    font-family: Montserrat;
+}
+.heading {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+  }
+  .heading-img {
+    float: left;
+  }
+  .head-navigation {
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 35%;
+  }
+  .head-links {
+    text-decoration: none;
+    margin: 0 0 0 20px;
+    padding: 8px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.3s;
+  }
+  .head-links:hover {
+    color: white;
+    background-color: black;
+  }
+  .profile {
+    font-size: 18px;
+  }
+  h2 {
+    display: inline;
+    font-size: 23px;
+    vertical-align: middle;
+    float: right;
+    font-family: 'Oxygen', sans-serif;
+    margin: 7px 15px ;
+    font-weight: normal;
+  }
+  
+.Contact__Us{
+    box-shadow: 5px 15px 25px rgba(0,0.2,0.3,0.4);
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left:100px;
+    margin-right: 50%;
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    background: white;
+    color: green;
+    font-weight:500;
+}
+.Mentor__Details{
+  /*  box-shadow: 5px 15px 25px rgba(0,0.2,0.4,0.5); */
+  margin-top:20px;
+}
+.Mentor__Name{
+    position: absolute;
+    box-shadow:5px 15px 25px rgba(0,0.2,0.4,0.7);
+    padding:10px;
+}
+.Mentor__Email{
+    box-shadow: 5px 15px 25px rgba(0,0.2,0.3,0.4);
+    padding: 10px;
+    margin-left:140px;
+}
+.right{
+    padding:13px;
+}
+.Creator__Leader__Details{
+   /* box-shadow: 5px 15px 25px rgba(0,0.2,0.4,0.5);*/
+   margin-top:50px;
+}
+.Creator__Leader{
+    position: absolute;
+    box-shadow:5px 15px 25px rgba(0,0.2,0.4,0.7);
+    padding:10px;
+}
+.Creator__leader__Email{
+    
+    box-shadow: 5px 15px 25px rgba(0,0.2,0.3,0.4);
+    padding: 10px;
+    margin-left:260px;
+}
+.Creator__second__Details{
+  /*  box-shadow: 5px 15px 25px rgba(0,0.2,0.4,0.5); */
+  margin-top:50px;
+}
+.Creator__second{   
+    
+    position: absolute;
+    box-shadow:5px 15px 25px rgba(0,0.2,0.4,0.7);
+    padding:10px;
+}
+.Creator__second__Email{ 
+    
+    box-shadow: 5px 15px 25px rgba(0,0.2,0.3,0.4);
+    padding: 10px;
+    margin-left:140px;
+}
+.Creator__third__details{
+ /*   box-shadow: 5px 15px 25px rgba(0,0.2,0.4,0.5); */
+ margin-top:50px;
+ margin-bottom:10px;
+}
+.Creator__third{
+    
+    position: absolute;
+    box-shadow:5px 15px 25px rgba(0,0.2,0.4,0.7);
+    padding:10px;
+}
+.Creator__third__Email{
+    
+    box-shadow: 5px 15px 25px rgba(0,0.2,0.3,0.4);
+    padding: 10px;
+    margin-left:200px;
+}
+
+.GPA_INFO{
+    box-shadow: 5px 15px 25px rgba(0,0.2,0.3,0.4);
+    margin-left:920px;
+    margin-right:220px;
+    margin-top:-550px;
+    padding: 30px;
+    padding-bottom: 70px;
+    background: white;;
+}
+.GP_Logo{
+    position:absolute;
+    margin-top:-19px;
+    margin-left: -30px;
+}
+.Align__GPLOGO__Text{
+    margin-left:60px;
+}
+.GPA_INFO img{
+    margin-top:20px;
+    margin-left:25px;
+}
+.Email__Details{
+    display:flex;
+    justify-content:space-around;
+    margin-top:20px;
+    color: green;
+    font-weight:500;
+}
+/*
+.Contact__Details{
+    display:flex;
+    justify-content:space-around;
+    margin-top:10px;
+    margin-left:-40px;
+}*/
+.Align__contact__logo{
+    position: absolute;
+    margin-top: 20px;
+    margin-left:20px;
+}
+.Contact__Align{
+    position:absolute;
+    margin-top: 20px;
+    margin-left:60px;
+    color: green;
+    font-weight: 500;
+}

@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family:Montserrat;
+    color: green;
+    line-height:1.8;
+    text-align: center;
+    background: lightgray;
+}
+
+.heading {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+  }
+  .heading-img {
+    float: left;
+  }
+  .head-navigation {
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 35%;
+  }
+  .head-links {
+    text-decoration: none;
+    margin: 0 0 0 20px;
+    padding: 8px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.3s;
+  }
+  .head-links:hover {
+    color: white;
+    background-color: black;
+  }
+  .profile {
+    font-size: 18px;
+  }
+  h2 {
+    display: inline;
+    font-size: 23px;
+    vertical-align: middle;
+    float: right;
+    font-family: 'Oxygen', sans-serif;
+    margin: 7px 15px ;
+    font-weight: normal;
+  }
+
+/*
+h1{
+    color: Green;
+    position:absolute;
+    left: 38%;
+    transform:translateX(-50%);
+    z-index: 1;
+    margin-top:35px;
+}*/
+.Container{
+    position: absolute;
+    margin-top: 20px;
+    left:50%;
+    transform:translateX(-50%);
+    padding: 70px;
+    box-shadow: 5px 15px 25px rgba(0,0.2,0.3,0.4);
+    background-color: white;    
+}
+/* label for Event Id*/
+.Event_Id_title{
+    margin-right:60px;
+    font-weight:700;
+}
+.Event_Id{
+    outline: none;
+    padding: 10px 40px;
+    padding-left: 10px;
+    margin-left:10px;
+    margin-bottom:10px;
+    font-weight:700;
+    font-family: Monsterrat;
+}
+/* label for Event Name */
+.Event_Id_title2{
+    margin-right:30px;
+    font-weight:700;
+}
+.Event_name{
+    outline: none;
+    margin-left:10px;
+    padding: 10px 40px;
+    padding-left:10px;
+    
+    font-weight:700;
+    font-family: Monsterrat;
+}
+/* label for Event Type*/
+.Event_Id_title3{
+    margin-top: 10px;
+    margin-right: 40px;
+    font-weight:700;
+}
+.Event_type{
+    outline: none;
+    margin-top: 10px;
+    margin-left:10px;
+    padding: 10px 40px;
+    padding-left:10px;
+    margin-bottom: 10px;
+    
+    font-weight:700;
+    font-family: Monsterrat;
+}
+/* Lbbel of Event Start date */
+.Event_Id_title4{
+    margin-left:5px;
+    margin-right: 10px;
+    font-weight:700;
+}
+.Event_start_date{
+    outline: none;
+    padding:10px 40px;
+    padding-left: 10px;
+    padding-right:60px;   
+    
+    font-weight:700;
+    font-family: Monsterrat;
+}
+/* Label for Event end date*/
+.Event_Id_title5{
+    margin-left:2px;
+    font-weight:700;
+}
+.Event_end_date{
+    outline: none;
+    margin-top: 10px;
+    padding: 10px 40px;
+    padding-left:10px;
+    padding-right: 60px;
+    margin-left:19px;
+    
+    font-weight:700;
+    font-family: Monsterrat;
+}
+/* Label for Manager */
+.Event_Id_title6{
+    margin-right: 20px;
+    font-weight:700;
+}
+.Event_Manager{
+    outline: none;
+    margin-top:10px;
+    padding: 10px 40px;
+    padding-left:10px;
+    margin-bottom: 10px;
+    
+    font-weight:700;
+    font-family: Monsterrat;
+}
+/* label for Event_organizer one*/
+.Event_Id_title7{
+   margin-left:20px;
+   font-weight:700;
+}
+.Event_Organizer_one{
+    margin-right:20px;
+    padding: 10px 40px;
+    padding-left:10px;
+    outline: none;
+    margin-left:10px;
+    margin-bottom:10px;
+    
+    font-weight:700;
+    font-family: Monsterrat;
+}
+/* label for Event_organizer two*/
+.Event_Id_title8{
+    margin-left:20px;
+    font-weight:700;
+}
+.Event_Organizer_two{
+    margin-right: 20px;
+    padding: 10px 40px;
+    padding-left:10px;
+    outline: none;
+    margin-left:10px;
+    
+    font-weight:700;
+    font-family: Monsterrat;
+}
+.Btn_submit{
+    background:green;
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding:10px 25px;
+    box-shadow: 5px 15px 25px rgba(0,0.2,0.3,0.5);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight:100;
+    outline: none;
+    cursor: pointer;
+}
+@media (max-width: 550px){
+    .Container{
+        margin:20px 20px;
+        padding:20px;
+    }
+    h2 {
+        font-size: 18px;
+        margin:9px 15px;
+      }
+      .head-links {
+        margin: 0 0 0 10px;
+      }
+    h1{
+        position:absolute;
+        margin-left: 55px;
+        font-size:20px;
+        margin-top:20px;
+        font-family: Monsterrat;
+    }
+    /* Stying for Event Id*/
+    .Event_Id_title{
+        position: absolute;
+        margin-top:25px;
+        margin-left:-120px;
+    }
+    .Event_Id{
+        position: absolute;
+        margin-top:50px;
+        margin-left: -120px;
+    }
+    /* Stying for Event Name*/
+    .Event_Id_title2{
+        position: absolute;
+        margin-top: 100px;
+        margin-left: -28px;
+    }
+    .Event_name{
+        margin-top: 130px;
+        margin-left: -28px;
+    }
+    /* Stying for Event Type*/
+    .Event_Id_title3{
+        position: absolute;
+        margin-left:-25px;
+    }
+    .Event_type{
+        margin-top: 40px;
+        margin-left: -25px;
+    }
+    /* Stying for Event Start Date*/
+    .Event_Id_title4{
+        position: absolute;
+        margin-top: 7px;
+        margin-left: -25px;
+    }
+    .Event_start_date{
+        margin-top:50px;
+        margin-left: -25px;
+    }
+    /* Stying for Event End Date*/
+    .Event_Id_title5{
+        position:absolute;
+        margin-top: 10px;
+        margin-left:-23px;
+    }
+    .Event_end_date{
+        margin-top: 40px;
+        margin-left: -25px;
+    }
+    /* Stying for Event Manager*/
+    .Event_Id_title6{
+        position:absolute;
+        margin-top:7px;
+        margin-left: -22px;
+    }
+    .Event_Manager{
+        margin-top: 40px;
+        margin-left: -25px;
+    }
+    /* Stying for Event Organizer 1*/
+    .Event_Id_title7{
+        position: absolute;
+        margin-left: -5px;
+    }
+    .Event_Organizer_one{
+        margin-top: 30px;
+        margin-left: -7px;
+    }
+    /* Stying for Event Organizer 2*/
+    .Event_Id_title8{
+        position: absolute;
+        margin-left: -5px;
+    }
+    .Event_Organizer_two{
+        margin-top: 30px;
+        margin-left: -7px;
+    }
+    .Btn_submit{
+        margin-left: -30px;
+        padding: 7px 40px;
+    }
+}
